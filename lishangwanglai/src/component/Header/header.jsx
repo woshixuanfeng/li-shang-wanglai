@@ -8,11 +8,6 @@ constructor(){
 render(){
     return(
         <div id="header">
-			<div id="head">
-				<p style={{marginLeft:'50px'}}>WIFI</p>
-				<p style={{marginLeft:'90px'}}>9:15PM</p>
-				<p style={{marginLeft:'120px'}}>82%</p>
-			</div>
 			<div id="content">
 				<router-view></router-view>
 			</div>

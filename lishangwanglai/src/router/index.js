@@ -6,6 +6,7 @@ import lizhang from '../component/lizhang/lizhang'
 import lishi from '../component/lishi/lishi'
 import wode from '../component/wode/wode'
 import Index from './index.css'
+import shezhi from '../component/wode/shezhi/shezhi'
 function router() { 
     return(
         <div id="box">
@@ -16,6 +17,7 @@ function router() {
                 <Route path='/lishi' component={lishi}/>
                 <Route path='/lizhang' component={lizhang}/>
                 <Route path='/wode' component={wode}/>
+                <Route path='/shezhi' component={shezhi}/>
                 <Route component={Header}/>
             </Switch>
         </div>
